@@ -1,0 +1,160 @@
+/*====== initialize =======*/
+html,body,p,dl,dt,dd,table,td,th,input,img,form,div,span,ul,ol,li,h1,h2,h3,h4,h5,h6,select,fieldset,input,button,sub,sup,textarea,article,aside,nav,section,footer,header,figure{
+	margin:0;
+	padding:0;
+}
+
+body {
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	font:0.875rem/1.25rem "arial, helvetica, sans-serif";
+	color:#fff;
+	background:#fff;
+	overflow:auto;  
+	min-height:700px; 
+	min-width:1200px;
+}
+a {
+	text-decoration:none;
+}
+li,ol,ul {
+	list-style:none;
+}
+img {
+	vertical-align:middle;
+	border: 0;
+}
+/* ============ w3 3d magic square ================ */
+.wrap {
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+	position:absolute;
+	perspective:1200px;
+	-webkit-perspective:1200px;
+	-moz-perspective:1200px;
+	-ms-perspective:1200px;
+}
+     /* stage 舞台 */
+.magic_stage {
+	width:500px;
+	height:500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin:-250px 0 0 -250px;
+	transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-webkit-transform-style:preserve-3d;
+	-o-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;
+}
+   /* stage_squaer 6个面 */
+.stage_square  {
+	width: 25%;
+	height: 25%;
+	position:absolute;
+	transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-webkit-transform-style:preserve-3d;
+	-o-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;
+}
+   /* 64个实际的矩形 */
+.stage_square > div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: rgba(96,200,245,0.2);
+	box-sizing: border-box;
+	border: 1px rgba(96,200,245,0.6) solid;
+}
+.stage_font {
+	transform:translateZ(62.5px);
+}
+.stage_right {
+	transform:rotateY(90deg) translateZ(62.5px);
+}
+.stage_left {
+	transform:rotateY(-90deg) translateZ(62.5px);
+}
+.stage_top {
+	transform:rotateX(90deg) translateZ(62.5px);
+}
+.stage_bottom {
+	transform:rotateX(-90deg) translateZ(62.5px);
+}
+.stage_last {
+	transform:rotateY(180deg) translateZ(62.5px);
+}
+
+li {
+	height:100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-attachment: center center;
+	display:none;
+	opacity:0.3;
+}
+
+
+/* ============== other ================== */
+.interim {
+	width:100%;
+	height:100%;
+	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transition: transform 4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

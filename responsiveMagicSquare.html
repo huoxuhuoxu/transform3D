@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> magic square </title>
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/responsive2.js"></script>
+		<link href="css/responsive2.css" rel="stylesheet" />
+	</head>
+	<body>
+		
+		<section class="wrap">
+				
+				<div class='magic_stage'>
+					
+					<!-- 第1大区 -->
+					
+					<!-- 0 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_01.jpg)"></li>
+						</div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_04.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_13.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 1 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_02.jpg) "></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_14.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 2 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_03.jpg) "></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_15.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 3 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_04.jpg)"></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_01.jpg)"></li>
+						</div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_16.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 4 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_05.jpg) "></li>
+						</div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_08.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 5 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_06.jpg)"></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 6 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_07.jpg) "></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 7 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_08.jpg) "></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_05.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 8 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_09.jpg) "></li>
+						</div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_12.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 9 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_10.jpg)"></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 10 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_11.jpg)"></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 11 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_12.jpg)"></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_09.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 12 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_13.jpg)"></li>
+						</div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_16.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_01.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 13 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_14.jpg)"></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_02.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 14 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_15.jpg)"></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_03.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 15 -->
+					<section class="stage_square">
+						<div class='stage_font'>
+							<li style="background:url(img/p/images/magic1_16.jpg)"></li>
+						</div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_13.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_04.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					
+					<!-- 第2大区 -->
+					
+					<!-- 0 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_03.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_09.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 1 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_10.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 2 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_11.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 3 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_02.jpg)"></li>
+						</div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_12.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 4 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_07.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 5 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 6 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 7 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_06.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 8 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_11.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 9 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 10 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 11 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_10.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 12 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_15.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_05.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 13 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_06.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 14 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_07.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 15 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_14.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_08.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					
+					<!-- 第3大区 -->
+					
+					<!-- 0 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_02.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_05.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 1 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_06.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 2 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_07.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 3 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_03.jpg)"></li>
+						</div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_08.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 4 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_06.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 5 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 6 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 7 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_07.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 8 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_10.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 9 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 10 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 11 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_11.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_08.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 12 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_14.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_09.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 13 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_10.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 14 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_11.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					<!-- 15 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_15.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_12.jpg)"></li>
+						</div>
+						<div class="stage_last"></div>
+					</section>
+					
+					<!-- 第4大区 -->
+					
+					<!-- 0 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_01.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_01.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_04.jpg)"></li>
+						</div>
+					</section>
+					<!-- 1 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_02.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_03.jpg)"></li>
+						</div>
+					</section>
+					<!-- 2 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_03.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_02.jpg)"></li>
+						</div>
+					</section>
+					<!-- 3 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_04.jpg)"></li>
+						</div>
+						<div class="stage_top">
+							<li style="background:url(img/p/images/magic5_04.jpg)"></li>
+						</div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_01.jpg)"></li>
+						</div>
+					</section>
+					<!-- 4 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_05.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_08.jpg)"></li>
+						</div>
+					</section>
+					<!-- 5 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_07.jpg)"></li>
+						</div>
+					</section>
+					<!-- 6 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_06.jpg)"></li>
+						</div>
+					</section>
+					<!-- 7 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_08.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_05.jpg)"></li>
+						</div>
+					</section>
+					<!-- 8 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_09.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_12.jpg)"></li>
+						</div>
+					</section>
+					<!-- 9 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_11.jpg)"></li>
+						</div>
+					</section>
+					<!-- 10 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_10.jpg)"></li>
+						</div>
+					</section>
+					<!-- 11 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_12.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom"></div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_09.jpg)"></li>
+						</div>
+					</section>
+					<!-- 12 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left">
+							<li style="background:url(img/p/images/magic2_13.jpg)"></li>
+						</div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_13.jpg)"></li>
+						</div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_16.jpg)"></li>
+						</div>
+					</section>
+					<!-- 13 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_14.jpg)"></li>
+						</div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_15.jpg)"></li>
+						</div>
+					</section>
+					<!-- 14 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right"></div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_15.jpg)"></li>
+						</div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_14.jpg)"></li>
+						</div>
+					</section>
+					<!-- 15 -->
+					<section class="stage_square">
+						<div class='stage_font'></div>
+						<div class="stage_left"></div>
+						<div class="stage_right">
+							<li style="background:url(img/p/images/magic4_12.jpg)"></li>
+						</div>
+						<div class="stage_top"></div>
+						<div class="stage_bottom">
+							<li style="background:url(img/p/images/magic6_16.jpg)"></li>
+						</div>
+						<div class="stage_last">
+							<li style="background:url(img/p/images/magic3_13.jpg)"></li>
+						</div>
+					</section>
+					
+					
+				</div>
+
+			</section>
+		
+	</body>
+</html>
